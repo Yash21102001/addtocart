@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>E-commerce</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="">
+  <div class="container">
+    <header>
+      <h1 class="text-light">Cart</h1>
+      <nav class="d-flex justify-content-end  fw-medium">
+        <a href="index.html" class="text-decoration-none me-2 fs-3 text-light"><i
+            class="fa-solid fa-house-user" style="color: #c1fd1c;"></i></a>
+        <a href="addToCart.html" class="text-decoration-none fs-3 ms-3"><i class="fa-solid fa-cart-shopping" style="color: #abf50a; "></i> (<span id="cart-count">0</span>)</a>
+
+      </nav>
+    </header>
+    <main>
+      <h2 class="mb-4 text-light">Shopping Cart <i class="fa-solid fa-cart-plus" style="color: #b3e010;"></i></h2>
+      <ul id="my-cart" class="list-group mb-4"></ul>
+      <p id="total" class="font-weight-bold text-light fs-4">TOTAL: $0.00</p>
+    </main>
+  </div>
+
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
